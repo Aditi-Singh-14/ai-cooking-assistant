@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# API keys — never commit these
+*.env
+secrets.py
+
+# User data — personal, don't commit
+data/profile.csv
+
+# OS
+.DS_Store
+Thumbs.db
